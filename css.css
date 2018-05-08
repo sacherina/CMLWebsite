@@ -1,0 +1,563 @@
+body { 
+  font-family: 'Open Sans', Arial, sans-serif, Helvetica;
+  font-size: 14px;
+  line-height: 2em;
+  text-align: center;
+}
+
+
+
+.banner {
+  background: url("https://custommortgageandloans.com.au/images/BannerCropped.jpg") no-repeat center center fixed;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 75vh;
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  margin-left: -8px;
+  margin-top: -12px; padding: 0px;
+  background-position: center; 
+}
+
+
+
+.bannerBottom {
+  width: 100vw;
+  margin-left: -8px;  height: 100px;
+  margin-top: -100px;
+  background-color: black;
+  z-score: 10;
+  color: black;
+background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#4d000000", GradientType=0); /* IE6-9 */
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+  from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
+
+
+
+.bannerTitle {
+  clear: both;
+  position: absolute;
+  font-size: 4em;
+  color: white;
+  bottom: 40vh;
+  left: 80px;
+  text-shadow:
+ 0.5px 0.5px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+ 1px 1px 0 #000;
+  line-height: 1em;
+}
+
+
+
+.tagline {
+  clear: both;
+  position: absolute;
+  font-size: 2em;
+  color: white;
+  bottom: 30vh;
+  left: 120px;
+  text-shadow:
+ 0.5px 0.5px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+ 1px 1px 0 #000;
+  line-height: 1em;
+}
+
+.outerList {
+  width: 400px;
+  height: 180px;
+  padding-bottom: 40px;
+}
+
+.innerList {
+  widht: 400px;
+  height: 30px;
+}
+
+.bigHeading {
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  background-color: white;
+  z-index: 3;
+}
+.logo {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  max-width: 75vw;
+
+}
+
+.entry-title {
+
+  visibility: hidden;
+
+  margin-top: -80px;
+
+
+}
+
+
+
+
+.content 
+
+ul {
+
+  list-style: none;
+
+  padding: 20px;
+
+  margin: 0;
+
+}
+
+
+
+.content li {
+  padding-left: 16px;
+
+}
+
+
+
+.bigBullet::before {
+
+  content: url("https://custommortgageandloans.com.au/images/LogoBulletPoint.jpg");
+  padding-right: 10px;
+
+}
+
+
+
+.bigBullet {
+
+  padding-bottom: 15px;
+
+  line-height: 25px;
+
+}
+
+
+
+.homeBanner {
+
+  text-align: center;
+
+  display: block;
+
+}
+
+
+
+.logo {
+
+   max-width: 400px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+.responsive
+
+
+ {  width: 100%; height: auto; background-repeat: no-repeat;}
+#aboutBannerText {
+
+  background-image: url("https://custommortgageandloans.com.au/images/AboutPageBig.jpg");
+
+  width: 100%; background-size: contain; height: 393px; max-width: 700px;
+	max-height: 393px;  background-repeat: no-repeat;
+	  
+  color: white;
+
+  font-size: 2em;
+
+  text-align: center;
+
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.aboutHeading {
+  position: relative;
+  top: 300px;
+}
+
+
+
+.servicesParagraph {
+
+
+}
+
+
+
+.tinyImage {
+  float: left;
+
+
+  margin-right: 15px;
+
+
+  margin-bottom: 10px;
+
+
+  min-height: 180px;
+
+
+  min-width: 270px;
+
+
+}
+
+
+
+.floatRight {
+
+
+  float: right;
+
+
+}
+
+
+
+#otherServices {
+
+
+  margin-top: 40px;
+
+
+}
+
+
+
+
+.divider {
+
+  border: solid;
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.redBtn {
+
+  background: url('https://custommortgageandloans.com.au/images/contact-us-button.png') left top no-repeat;
+
+  width: 140px;
+  height: 56px;
+
+  background-size: 100%;
+
+  margin-top: 20px;
+}
+
+
+.bigWhiteText {
+
+  color: white;
+
+  font-size: 1.5em;
+
+}
+
+
+#inquireNowBtn {
+
+  padding-left: 80px;
+  padding-top: 7px;
+  margin-left: auto;
+
+  margin-right: auto;
+
+  font-size: 1em;
+}
+
+a.anchor {
+  display: block;
+
+  position: relative;
+	  visibility: hidden;
+
+  top: -100px;
+
+}
+
+.contactHeader {
+	background-image: url('https://custommortgageandloans.com.au/images/contactImage.jpg');
+
+  width: 100%; height: auto; max-width: 700px;
+
+  max-height: 466px;
+  background-size: 100%;
+
+  text-align: center;
+
+}
+
+
+#contactHeaderTitle {
+
+  color: white;
+
+  text-shadow:
+ 1px 1px 0 #000,
+ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+ 1px 1px 0 #000;
+
+  padding-top: 320px;
+}
+
+
+#contactHeaderSubTitle {
+  color: white;
+
+  text-shadow:
+ 0.5px 0.5px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+ 1px 1px 0 #000;
+  letter-spacing: 3px;
+
+}
+#contactFooter {
+  margin-top: 10px;
+}
+.homeImageTitle {
+  text-align: center;
+  color: white;
+
+}
+
+
+.homeImageSubTitle {
+  color: white;
+  text-align: center;
+
+  background-color: rgba(0,0,0,0.42);
+
+  padding-bottom: 40px;
+	  background-size: 50px, 130px, auto;
+
+}
+
+
+.contactImageTitle {
+  color: white;
+
+  text-align: center;
+
+  background-color: rgba(0,0,0,0.42);
+
+  padding-bottom: 5px;
+
+  line-height: 70px;
+
+  background-size: 50px, 130px, auto;
+
+}
+
+
+.contactImageSubTitle {
+  text-align: center;
+
+  padding-right: 50px;
+
+}
+
+
+
+.contactPageContactInfo {
+  line-height: 5px;
+
+  border-style: groove;
+
+  max-width: 380px;
+
+  width: 100%; height: auto;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+	
+  margin-right: auto;
+	
+  padding-left: 10px;
+  padding-top: 10px;
+  white-space: nowrap;
+	
+  overflow: hidden;
+	
+  box-shadow: 5px 10px 8px #888888;
+
+  line-height: 1.5em;
+}
+
+.form {
+  width: 100%;
+  max-width: 700px;
+
+}
+
+.g-recaptcha {
+  padding: 10px;
+}
+.servicesContent {
+	
+  max-width: 700px;
+
+}
+
+
+
+
+.accordion {
+	
+  width: 100%;
+	
+  background-color: rgb(177, 181, 183);
+	
+  padding-top: 15px;
+	  
+  padding-bottom: 15px;
+	
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(212, 35, 41);
+  text-decoration: none;
+  font-size: 1.2em;  
+  font-weight: bold;
+}
+#faq {
+	
+  text-align: center;
+	 
+  padding-bottom: 20px;
+	
+  padding-top: 0px;
+
+}
+
+.accordion:hover {
+  background-color: rgb(204, 207, 209);
+  cursor: pointer;
+}
+
+
+
+
+.footerGrid {
+	
+  max-width:700px;
+	  
+  display: grid;
+	
+  grid-template-columns: auto auto auto;
+	
+  -ms-grid-columns: 650px;
+	
+  -ms-grid-rows: 90px;
+	
+  padding-top: 30px;
+	
+  border-style: solid;
+	  
+  border-width: 2px 0 0;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.footerConLogo {
+	
+  margin-top: 20px;
+	
+  visibility: hidden;
+
+}
+
+
+.MFAALogo {
+	
+  margin-left: auto;
+	
+  margin-right: auto;
+	
+  text-align: left;
+	
+  max-width: 90px;
+
+}
+
+
+.right {
+	
+  text-align: right;
+	
+  line-height: 2em;
+
+}
+
+
+.servicesContent {
+	
+  display: inline-grid;
+
+}
+
+
+#infoText {
+	
+  font-size: 80%;
+
+}
+
+
+.VisiCalcClass {
+
+  background:url(/staticAssets/calculators/load.gif) 50% 15% no-repeat;
+background-size: 80px 80px;
+min-width: 640px;
+min-height:600px;
+margin:0;
+padding:0;
+}
+#Borrowing_Power_Calculator { min-height:770px !important; }
+#How_Long_to_Repay_Calculator { min-height:560px !important; }
+#Property_Buying_Cost_Calculator { min-height:710px !important; }
+#Extra_Repayment_Calculator { min-height:660px !important; }
+
+@media screen and (max-width: 767px) {
+ .VisiCalcClass {
+ min-width: 100%;
+ min-height:1250px;
+ margin:0;
+ padding:0;}
+ #Borrowing_Power_Calculator { min-height:1800px !important; }
+ #Extra_Repayment_Calculator { min-height:1450px !important; }
+ #How_Long_to_Repay_Calculator { min-height:1250px !important; }
+ }
+
+.iframes {
+	margin-bottom: 100px !important;
+}
