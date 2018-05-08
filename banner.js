@@ -55,6 +55,7 @@ function floatNavbar() {
   }
 }
 
+//addEvent and removeEvent helper function copied from Pro Javascript Techniques
 function addEvent(element, type, handler) {
   // assign each event handler a unique ID
   if (!handler.$$guid) handler.$$guid = addEvent.guid++;
